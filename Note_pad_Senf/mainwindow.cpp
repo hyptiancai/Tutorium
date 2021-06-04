@@ -7,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
     setFixedSize(600,500);//500*400 man darf es nicht verändern
+    setCentralWidget(ui->textEdit);
 }
 
 MainWindow::~MainWindow()
